@@ -6,6 +6,7 @@ ThemeData appTheme(context) => ThemeData(
       scaffoldBackgroundColor: Colors.white,
       appBarTheme: AppBarTheme(
         elevation: 0,
+        brightness: Brightness.light,
         textTheme: Theme.of(context).textTheme.copyWith(
                 title: TextStyle(
               color: Colors.black,
